@@ -1,0 +1,35 @@
+# Development dependencies for Monochrome
+
+# Testing
+pytest==7.4.3
+pytest-django==4.7.0
+pytest-cov==4.1.0
+coverage==7.3.2
+
+# Code quality
+black<23.0.0
+flake8==6.1.0
+isort==5.12.0
+mypy==1.7.1
+django-stubs==4.2.7
+
+# Security
+bandit==1.7.5
+safety>=2.4.0
+
+# Performance
+django-debug-toolbar==4.2.0
+django-silk==5.0.4
+
+# Documentation
+mkdocs==1.5.3
+mkdocs-material==9.4.14
+
+# Development utilities
+ipython==8.18.1
+django-extensions==3.2.3
+Faker==20.1.0
+factory-boy==3.3.0
+
+# Monitoring
+psutil==5.9.6
