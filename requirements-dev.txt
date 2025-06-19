@@ -32,7 +32,8 @@ Faker==20.1.0
 factory-boy==3.3.0
 
 # Monitoring
-psutil==5.9.6annotated-types==0.7.0
+psutil==5.9.6
+annotated-types==0.7.0
 asgiref==3.8.1
 asttokens==3.0.0
 Authlib==1.6.0
