@@ -9,11 +9,6 @@ source venv/bin/activate
 
 # Github setup
 git init
-git add .
-git commit -m "first commit and project structure setup"
-git branch -M main
-git remote add origin git@github.com:BLKamau/monochrome.git
-git push -u origin main
 
 # Install/update dependencies
 pip install -r requirements.txt

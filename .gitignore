@@ -1,0 +1,462 @@
+# ==============================================================================
+# Python
+# ==============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# ==============================================================================
+# Django
+# ==============================================================================
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+db.sqlite3-wal
+
+# Django migrations
+# Don't ignore migration files, they should be in version control
+# */migrations/*.py
+# !*/migrations/__init__.py
+
+# Django media files
+media/
+!media/.gitkeep
+
+# Django static files (collected)
+staticfiles/
+static_root/
+!static/.gitkeep
+
+# Django secret files
+secrets.json
+
+# ==============================================================================
+# Environment and Virtual Environments
+# ==============================================================================
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.*.local
+.envrc
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.virtualenv/
+virtualenv/
+pipenv/
+.pipenv/
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+.pdm-python
+__pypackages__/
+
+# ==============================================================================
+# IDEs and Editors
+# ==============================================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+out/
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+*.sublime-*
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+*.swp
+*.swo
+*~
+.netrwhist
+Session.vim
+Sessionx.vim
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Atom
+.atom/
+
+# ==============================================================================
+# Operating System Files
+# ==============================================================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.AppleDouble
+.LSOverride
+Icon
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+.directory
+.Trash-*
+.nfs*
+
+# ==============================================================================
+# Security and Secrets
+# ==============================================================================
+
+# Private keys and certificates
+*.pem
+*.key
+*.crt
+*.csr
+*.der
+*.p7b
+*.p12
+*.pfx
+.cert/
+certificates/
+
+# SSH keys
+id_rsa
+id_rsa.pub
+id_dsa
+id_dsa.pub
+*.ppk
+
+# AWS
+.aws/
+aws-exports.js
+
+# Google Cloud
+.gcloud/
+*.json.keyfile
+service-account-key.json
+
+# ==============================================================================
+# Logs and Temporary Files
+# ==============================================================================
+
+# Log files
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+.~*
+
+# ==============================================================================
+# Testing and Quality Tools
+# ==============================================================================
+
+# pytest
+.pytest_cache/
+pytest_cache/
+.pytest_report.html
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Coverage reports
+.coverage
+coverage.xml
+*.cover
+htmlcov/
+
+# ==============================================================================
+# Documentation
+# ==============================================================================
+
+# Sphinx documentation
+docs/_build/
+docs/_static/generated/
+
+# mkdocs documentation
+site/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# ==============================================================================
+# Package Management
+# ==============================================================================
+
+# npm
+node_modules/
+npm-debug.log
+package-lock.json
+
+# yarn
+yarn-error.log
+yarn.lock
+
+# pnpm
+pnpm-lock.yaml
+
+# ==============================================================================
+# Databases and Data
+# ==============================================================================
+
+# SQLite
+*.sqlite
+*.sqlite3
+*.db
+
+# PostgreSQL
+*.sql
+!*/fixtures/*.sql
+postgresql/
+
+# Redis
+dump.rdb
+redis/
+
+# MongoDB
+mongod.lock
+
+# Backups
+backups/
+*.dump
+*.sql.gz
+*.tar.gz
+*.zip
+
+# ==============================================================================
+# Monochrome Specific
+# ==============================================================================
+
+# Debug files
+debug.log
+debug/
+
+# User uploaded files
+uploads/
+user_uploads/
+
+# Generated QR codes
+qr_codes/
+
+# Exported API documentation
+docs/api/
+openapi_schema.json
+API_Reference.md
+
+# Performance monitoring
+performance_reports/
+
+# Test data
+test_data/
+fixtures/test_*.json
+
+# Cache directories
+.cache/
+cache/
+
+# Session files
+sessions/
+
+# GeoIP data
+geoip/
+*.mmdb
+
+# Frontend build files (if in same repo)
+frontend/build/
+frontend/dist/
+frontend/node_modules/
+
+# ==============================================================================
+# Miscellaneous
+# ==============================================================================
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+celerybeat-schedule.db
+
+# SageMath parsed files
+*.sage.py
+
+# Scrapy
+.scrapy
+
+# Rope project settings
+.ropeproject
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Fabric
+.fab
+
+# Flask
+instance/
+.webassets-cache
+
+# Vagrant
+.vagrant/
+
+# Docker volumes (but keep docker files)
+docker/volumes/
+!docker-compose.yml
+!Dockerfile
+!.dockerignore
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+
+# Ansible
+*.retry
+
+# Backup files
+*.backup
+*.bak
+*.orig
+*.save
+
+# Patch files
+*.patch
+*.diff
+
+# Tags
+tags
+TAGS
+.tags
+!tags/

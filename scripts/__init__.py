@@ -1,0 +1,3 @@
+"""
+Monochrome development scripts package.
+"""
